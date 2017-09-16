@@ -1,38 +1,45 @@
----
-- TableName: construction
-  Columns:
-  - Name: name
-    ColumnName: name
-    ColumnType: label
-    IsIndexed: true
-    DataType: varchar(100)
-  - Name: length
-    ColumnName: length
-    ColumnType: measurement
-    DataType: int(11)
-  - Name: width
-    ColumnName: width
-    ColumnType: measurement
-    DataType: int(11)
-  - Name: height
-    ColumnName: height
-    ColumnType: measurement
-    DataType: int(11)
-  - Name: start_time
-    ColumnName: start_time
-    ColumnType: datetime
-    DataType: timestamp
-  - Name: end_time
-    ColumnName: end_time
-    ColumnType: datetime
-    DataType: timestamp
-  - Name: mid_time
-    ColumnName: mid_time
-    ColumnType: datetime
-    DataType: timestamp
-  - Name: another_label
-    ColumnName: another_label
-    ColumnType: label
-    DataType: varchar(100)
-
-    
+--- 
+- 
+  Columns: 
+    - 
+      ColumnName: name
+      ColumnType: label
+      DataType: varchar(100)
+      IsIndexed: true
+      Name: name
+    - 
+      ColumnName: length
+      ColumnType: measurement
+      DataType: int(11)
+      Name: length
+    - 
+      ColumnName: width
+      ColumnType: measurement
+      DataType: int(11)
+      Name: width
+    - 
+      ColumnName: height
+      ColumnType: measurement
+      DataType: int(11)
+      Name: height
+    - 
+      ColumnName: start_time
+      ColumnType: datetime
+      DataType: timestamp
+      Name: start_time
+    - 
+      ColumnName: end_time
+      ColumnType: datetime
+      DataType: timestamp
+      Name: end_time
+    - 
+      ColumnName: mid_time
+      ColumnType: datetime
+      DataType: timestamp
+      Name: mid_time
+    - 
+      ColumnName: another_label
+      ColumnType: label
+      DataType: varchar(100)
+      Name: another_label
+  TableName: construction
