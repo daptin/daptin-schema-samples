@@ -1,4 +1,5 @@
-[
+{
+  "Tables": [
   {
     "Columns": [
       {
@@ -52,5 +53,5 @@
       }
     ],
     "TableName": "construction"
-  }
-]
+  }]
+}
