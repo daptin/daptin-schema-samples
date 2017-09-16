@@ -30,19 +30,19 @@
       {
         "ColumnName": "start_time",
         "ColumnType": "datetime",
-        "DataType": "timestamp",
+        "DataType": "DATETIME",
         "Name": "start_time"
       },
       {
         "ColumnName": "end_time",
         "ColumnType": "datetime",
-        "DataType": "timestamp",
+        "DataType": "DATETIME",
         "Name": "end_time"
       },
       {
         "ColumnName": "mid_time",
         "ColumnType": "datetime",
-        "DataType": "timestamp",
+        "DataType": "DATETIME",
         "Name": "mid_time"
       },
       {
