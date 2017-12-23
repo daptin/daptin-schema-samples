@@ -52,7 +52,7 @@ Tables:
   - Name: completed
     DataType: int(1)
     ColumnType: truefalse
-    DefaultValue: 'false'
+    DefaultValue: '0'
   - Name: schedule
     DataType: date
     ColumnType: date
