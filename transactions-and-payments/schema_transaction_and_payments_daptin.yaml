@@ -1,0 +1,38 @@
+---
+Tables:
+- TableName: sale
+  Columns:
+  - Name: payment_reference
+    ColumnType: label
+    DataType: varchar(50)
+- TableName: payment
+  Columns:
+  - Name: amount
+    ColumnType: value
+    DataType: int(11)
+  - Name: payment_source
+    ColumnType: label
+    DataType: varchar(50)
+    IsNullable: true
+    DefaultValue: ''
+  - Name: shared_reference_id
+    ColumnType: label
+    DataType: varchar(50)
+    IsIndexed: true
+    IsNullable: true
+  - Name: status
+    ColumnType: label
+    DataType: varchar(50)
+    IsNullable: false
+    DefaultValue: |-
+      'initiated'
+Relations:
+- Subject: sale
+  Relation: has_one
+  Object: package
+- Subject: sale
+  Relation: has_one
+  Object: payment
+- Subject: sale
+  Relation: has_one
+  Object: deployment
