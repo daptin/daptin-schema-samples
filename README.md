@@ -41,13 +41,7 @@ Packages are smaller set of APIs you can pick and selectively install in Daptin.
 
 ## How to install
 
-- Goto *Dashboard*
-- Goto *Market places*
-- Find "Default market" in the list
-- Click "Expand" to go to since marketplace item
-- In actions, click "Install a package"
-- Enter the "Name of the folder" of the package you want to install
-- Submit, Daptin will restart to apply changes and expose new endpoints
+- Copy yaml and provide path to daptin in arguments
 
 ### New to Daptin ?
 
