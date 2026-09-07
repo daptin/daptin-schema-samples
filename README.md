@@ -1,6 +1,13 @@
 # Daptin schema samples
 
-This git repository contains schemas for a variety of applications which you can install in [Daptin](https://dapt.in). You can create your own repo and use it as a market among your users.
+This legacy repository contains early schema examples for [Daptin](https://daptin.github.io/).
+For maintained examples, use the examples shipped with the main Daptin repository.
+
+> The former PayPal payment packages were removed because they used obsolete
+> provider endpoints and bypassed the current integration, credential, action,
+> and metering authorities. Use the maintained
+> [payment checkout example](https://github.com/daptin/daptin/tree/master/examples/payment-checkout)
+> and [Payments and Checkout guide](https://github.com/daptin/daptin/wiki/Payments-and-Checkout).
 
 ## Packages
 
@@ -33,11 +40,9 @@ Packages are smaller set of APIs you can pick and selectively install in Daptin.
 | [Blog](/blog)                                                     | blog, post, comment                       | Leave a comment, Create new post                                  | publish_status  | A single-user/multi-user blogging platform                                                 |
 | [Contruction Project Management](/contruction-project-management) | construction                              | -                                                                 | -               | A basic entity designing demo                                                              |
 | [Faq](/faq)                                                       | faq, merchant                             | -                                                                 | -               | Frequently answered questions platform                                                     |
-| [Pay Via Paypal](/pay-via-paypal)                                 | -                                         | mark_as_complete_by_paypal, buy_package                           | -               | Integrate "Pay via Paypal" to any entity                                                   |
 | [Store](/store)                                                   | inventory, sale                           | new_purchase, return item                                         | -               | A demonstrative schema showing how to use scripting in actions effectively                 |
 | [Style](/style)                                                   | style, orders, vendors, cost, style_file  | new_order, sync with google sheet                                 | light_states    | A multi user designer cloth manufacturing management system                                |
 | [Task List](/todolist)                                            | todo, tags, projects                      | new_task, mark_as_completed, new_project, new_data_exchange       | task_status     | Multi-user todo and task management platform with tags and projects                        |
-| [Transactions and Payments](/transactions-and-payments)           | sale, payment                             | -                                                                 | -               | Requirement for the "Pay-via-Paypal" integration to maintain sales and payment information |
 
 ## How to install
 
@@ -45,7 +50,7 @@ Packages are smaller set of APIs you can pick and selectively install in Daptin.
 
 ### New to Daptin ?
 
-[Find out more here](https://dapt.in)
+[Find out more here](https://daptin.github.io/)
 
 ## Package structure
 
